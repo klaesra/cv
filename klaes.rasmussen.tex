@@ -1,0 +1,195 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Wilson Resume/CV
+% XeLaTeX Template
+% Version 1.0 (22/1/2015)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Howard Wilson (https://github.com/watsonbox/cv_template_2004) with
+% extensive modifications by Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt]{article} % Default font size
+
+\input{structure.tex} % Include the file specifying document layout
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{Klaes Rasmussen -- Résumé} % Print the main header
+
+%------------------------------------------------
+
+\parbox{0.5\textwidth}{ % First block
+\begin{tabbing} % Enables tabbing
+\hspace{3cm} \= \hspace{4cm} \= \kill % Spacing within the block
+{\bf Address} \> Vognmandsmarken 24, 2. TV,\\ % Address line 1
+\> 2100, København Ø \\ % Address line 2
+{\bf Date of Birth} \> 4$^{th}$ October 1987 \\ % Date of birth 
+{\bf Nationality} \> Danish % Nationality
+\end{tabbing}}
+\hfill % Horizontal space between the two blocks
+\parbox{0.5\textwidth}{ % Second block
+\begin{tabbing} % Enables tabbing
+\hspace{3cm} \= \hspace{4cm} \= \kill % Spacing within the block
+{\bf Mobile Phone} \> +45 23 82 06 82 \\ % Mobile phone
+{\bf Email} \> \href{mailto:k@klaes.dk}{k@klaes.dk} \\ % Email address
+\end{tabbing}}
+
+%----------------------------------------------------------------------------------------
+%	PERSONAL PROFILE
+%----------------------------------------------------------------------------------------
+
+\section{Personal Profile}
+
+I am a happy, smiling person who likes games, puns and neat code. I love doing frontend work
+and trying out new methods and technologies. 
+Therefore I have a hobby of reading about the latest developments in JavaScript
+and playing computer games.
+
+%----------------------------------------------------------------------------------------
+%	EMPLOYMENT HISTORY SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Employment History}
+
+\job
+{Aug 2016 -}{Nov 2016}
+{Alpha Solutions A/S, Gothersgade 14, 4th floor, 1123 Copenhagen K, Denmark}
+{http://www.alpha-solutions.dk/}
+{Developer / Build script expert}
+{Working with Demandware and setting up build scripts both locally and on TeamCity server.\\
+\rule{0mm}{5mm}\textbf{Technologies:} Node.js, Demandware, JavaScript, Windows Powershell}
+
+%------------------------------------------------
+
+\job
+{Oct 2015 -}{Aug 2016}
+{OMI A/S, Amaliegade 4, 1256 Copenhagen, Denmark}
+{http://www.omi.dk}
+{Developer}
+{Creating and maintaining Citroën campaign websites for Norway, Sweden and Denmark.\\
+Creating most of the frontend, written in either PHP or JavaScript with React, while using Node.js 
+for library management.\\
+All while ensuring that the corresponding backend was kept in working condition with PHP and Symfony 2. 
+Creating and maintaining auto deploy scripts.\\
+\rule{0mm}{5mm}\textbf{Technologies:} Node.js, JavaScript, React, CSS, SASS, git, HTML, Less, shell scripts, PHP, (React-Redux)}
+
+\job
+{Nov 2014 -}{July 2015}
+{Univerity of Copenhagen, Karen Blixens Vej 4, 2300 Copenhagen S, Denmark}
+{http://inss.ku.dk/}
+{Student Worker - Developer}
+{Creating a frontend and backend for comparing the use of input sentences or words statistically. 
+Frontend of very simple HTML and php framework for showing my Python backend data.
+Created various graphs to show distribution of input sentences over time, age and gender. 
+Also a heatmap for showing sentence usage in NUTS-regions. All using a set of large CSV input files from several countries. 
+Countries were compared separately. 
+I parsed the data and inserted it into a SOLR database, then using that in conjunction with Python to generate the graphs and map. 
+Even made it relatively fast :D (around 1 sec to do map of england with 500,000 results, heatmap generated and shown in browser)
+
+https://github.com/klaesra/WordlyExplorer \\
+\rule{0mm}{5mm}\textbf{Technologies:} Python, Apache Solr, PHP, HTML, CSS}
+
+\job
+{2010 -}{2013}
+{Various places}
+{}
+{Student jobs}
+{Various support jobs for phone and internet companies. Webmaster on a Wordpress site for a while.}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\tabbedblock{
+\bf{2014-2015} \> First year of master in It and Cognition - \href{http://studies.ku.dk/masters/it-and-cognition/}{Language Department, University of Copenhagen} \\[5pt]
+\>\+
+}
+
+%------------------------------------------------
+
+\tabbedblock{
+\bf{2006-2013} \> BSc in Computer Science - \href{http://www.diku.dk}{Department of Computer Science, University of Copenhagen} \\[5pt]
+\>\+
+}
+
+%------------------------------------------------
+
+\tabbedblock{
+\bf{2003-2006} \> International Baccaulaureate - \href{http://osc.lk/school/secondary-school/ib-deploma/}{Overseas School of Colombo, Sri Lanka}\\[5pt]
+\>\+
+\textit{Higher level Mathematics} \> A \\
+\textit{Higher level Physics} \> A \\
+\textit{Higher level Economics} \> A
+}
+
+
+%----------------------------------------------------------------------------------------
+%	IT/COMPUTING SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Software Engineering Skills}
+
+\skillgroup{Web Development}
+{
+\textit{HTML5, CSS3/SASS, JavaScript/React}\\
+\textit{Node.js, Gulp, Grunt}
+}
+
+%------------------------------------------------
+
+\skillgroup{Programming Languages}
+{
+\textit{Python}\\
+\textit{PHP}\\
+\textit{JavaScript}\\
+\textit{Latex}\\
+\textit{Go}\\
+\textit{shell script}
+}
+
+%------------------------------------------------
+
+\skillgroup{Miscellaneous}
+{
+\textit{Apache Solr} - database\\
+\textit{MySQL}\\
+\textit{SVN, git} - source version control
+}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Interests}
+
+\interestsgroup{
+\interest{Golfing}
+\interest{Travelling}
+\interest{Dancing}
+\interest{Acting}
+\interest{Singing}
+\interest{Computers}
+\interest{Computer games}
+\interest{JavaScript evolution}
+}
+
+\end{document}
