@@ -1,0 +1,215 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.2 (3/5/15)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+
+\begin{document}
+
+\header{Klaes Ellyton }{Rasmussen}{frontend/fullstack developer} % Your name and current job title/field
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{aside} % In the aside, each new line forces a line break
+\section{contact}
+Vognmandsmarken 24, 2.TV
+2100 København Ø
+Denmark
+~
++45 23820682
+~
+\href{mailto:k@klaes.dk}{k@klaes.dk}
+\section{languages}
+danish mother tongue
+english mother tongue
+norwegian/swedish
+french basic
+\section{programming}
+{\color{red} $\varheartsuit$} JavaScript, TypeScript
+Angular 2+, React
+Node.js, CSS3, HTML5
+Python \& etc.
+\end{aside}
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{introduction}
+
+I am a happy, smiling person who likes games, puns and neat code. I love doing frontend work
+and trying out new methods and technologies. 
+Therefore I have a hobby of reading about the latest developments in JavaScript
+and playing computer games.
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{experience}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry
+{Mar 2017 $\rightarrow$ \\ Now}
+{Solteq}
+{Copenhagen}
+{\emph{frontend developer} \\
+Working as the only pure frontend dev with Angular 2+. Working closely with customer Apotek 1 from Norway, and their chosen designer group. My focus is on developing the intricate parts of their frontend for both B2C and B2B solutions. I provide ample knowledge, ideas for improvements both for UX and DX.
+\begin{itemize}
+\item Learned how to work with WCS (IBM Websphere Commerce Solutions) as a backend
+\item Learned the ups and downs of Angular 2+ as both a middleware and a frontend solution:
+\begin{itemize}
+\item Typescript programming all the way
+\item Working with Jasmine and Karma as test-suite
+\item Angular for native and web-apps
+\end{itemize}
+\item Main developer on B2C checkout page (apart from design)
+\item Main developer on B2B account pages, asked to change design where it was dysfunctional
+\end{itemize}}
+
+\entry
+{Aug 2016 $\rightarrow$ \\ Nov 2016}
+{Alpha Solutions A/S}
+{Copenhagen}
+{\emph{developer / build script expert} \\ 
+Working with Demandware and setting up build scripts both locally and on TeamCity server.
+\begin{itemize}
+\item Learned to work with Salesforce Commerce Cloud
+\item Working with JavaScript, grunt scripts and Windows Powershell
+\end{itemize}
+}
+
+\entry
+{Oct 2015 $\rightarrow$ \\ Jul 2016}
+{OMI A/S}
+{Copenhagen}
+{\emph{Developer} \\
+Creating and maintaining Citroën campaign websites for Norway, Sweden and Denmark.
+Creating most of the frontend, written in either PHP or JavaScript with React, while using Node.js 
+for library management.
+All while ensuring that the corresponding backend was kept in working condition with PHP and Symfony 2. 
+Creating and maintaining auto deploy scripts.\\
+\begin{itemize}
+	\item Learned to work with React, JavaScript, Node.js, CSS, SASS, Less, HTML5
+	\item Got better with PHP, shell scripts, git
+\end{itemize}
+}
+
+%------------------------------------------------
+
+\end{entrylist}
+
+\pagebreak
+
+\subsection{Part Time}
+
+\begin{entrylist}
+
+\entry
+{Aug 2015 $\rightarrow$ \\ Oct 2015}
+{getQueried}
+{Copenhagen}
+{\emph{Part time developer} \\
+I got a chance to try programming for a start up, we developed in Google Go. Job was unpaid and shortly after I got an offer to work for OMI.
+}
+
+\entry
+{Nov 2014 $\rightarrow$ \\ Jul 2015 }
+{University of Copenhagen}
+{Copenhagen}
+{\emph{Student Worker - Developer} \\
+Creating a frontend and backend for comparing the use of input sentences or words statistically. 
+Frontend of very simple HTML and php framework for showing my Python backend data.
+Created various graphs to show distribution of input sentences over time, age and gender. 
+Also a heatmap for showing sentence usage in NUTS-regions. All using a set of large CSV input files from several countries. 
+Countries were compared separately. 
+I parsed the data and inserted it into a SOLR database, then using that in conjunction with Python to generate the graphs and map. 
+Even made it relatively fast :D (around 1 sec to do map of england with 500,000 results, heatmap generated and shown in browser)
+
+https://github.com/klaesra/WordlyExplorer \\
+\begin{itemize}
+	\item Learned to work independantly on a larger project over a longer period of time
+	\item Learned a lot about scripting and Python and data transfer between different platforms
+\end{itemize}
+}
+
+%------------------------------------------------
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{education}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry
+{2014 $\rightarrow$ \\ 2015}
+{Master {\normalfont in It and Cognition}}
+{Language Department, University of Copenhagen}
+{Completed the first year of the master, after which there was no more programming and I moved onto jobs.}
+
+%------------------------------------------------
+
+\entry
+{2006 $\rightarrow$ \\ 2013}
+{Bachelor {\normalfont in Computer Science}}
+{Department of Computer Science, University of Copenhagen}
+{}
+
+%------------------------------------------------
+
+\entry
+{2003 $\rightarrow$ \\ 2006}
+{International Baccaulaureate}
+{Overseas School of Colombo, Sri Lanka}
+{\textit{Higher level Mathematics} \\
+\textit{Higher level Physics} \\
+\textit{Higher level Economics} }
+
+%------------------------------------------------
+
+\end{entrylist}
+
+
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{interests}
+
+\textbf{professional:} UX, DX, JavaScript, TypeScript, web design, web app creation, efficiency, code cleanliness, maintainability, deterministic code \\
+\textbf{personal:} surfing, golfing, travelling, dancing, acting, singing, computers, computer games, quantum computing
+
+
+\end{document}
